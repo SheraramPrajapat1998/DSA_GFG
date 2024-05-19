@@ -1,0 +1,17 @@
+"""
+XOR properties:
+1. XOR of a number with 0 is number itself.
+    => x ^ 0 = x
+
+2. XOR operator is commutative.
+    => x ^ y = y ^ x
+
+3. XOR operator is associative.
+    => x ^ (y ^ z) = (x ^ y) ^ z
+
+4. XOR with same number is zero.
+    => x ^ x = 0
+
+Find Right Most Set Bit:
+    => number & ~(number - 1)
+"""
